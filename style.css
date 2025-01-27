@@ -1,17 +1,18 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #0D1117;
-    color: #C9D1D9;
+    background-color: #363d48;
+    color: #f03131;
 }
 
 h1 {
-    color: #58A6FF;
+    color: #000000;
+    text-decoration: underline;
 }
 
 /* Attribute Selector */
 a {
     color: #88949E;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -46,12 +47,12 @@ p:not(:first-of-type) {
 }
 /* ::before pPesudo-element */
 ul li::before {
-    content:"🚀";
+    content:"☄️";
 }
 
 /* ::after Pesudo-element */
 a::after {
-    content: "😊";
+    content: "🌌";
 }
 
 /* ::first-letter Pesudo-element */
